@@ -1,0 +1,45 @@
+#params {
+  display: flex;
+  flex-direction: row;
+  visibility: hidden;
+  position: absolute;
+  bottom: 165px;
+  left: 15%;
+  align-items: center;
+  width: 80%;
+  overflow-x: hidden;
+  margin-bottom: 1px;
+  justify-content: center;
+}
+
+#data_holder {
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  top: 115px;
+  left: 41.5%;
+  border: 3px dashed rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  justify-content: center;
+}
+
+#tickerForm {
+  position: absolute;
+  bottom: 60px;
+}
+.freq_num, .freq_type, .per_num, .per_type {
+  margin: 0 15px;
+  color: white;
+}
+
+input {
+  padding: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  position: relative;
+  left: 45%;
+}

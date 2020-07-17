@@ -1,0 +1,19 @@
+.searches_container {
+  float: left;
+  background-color: lime;
+  width: 10%;
+  height: 75%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.list p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list {
+  position: relative;
+  top: 15px;
+  margin-bottom: 15px;
+}
