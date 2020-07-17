@@ -99,7 +99,7 @@ const DataFetcher = (props) => {
     <>
 
       <div id="data_holder">
-        {!hasSearched ? <p>Input a ticker below to display data in the box</p> :
+        {!hasSearched ? <p style={{color: 'lightgrey', paddingTop: '25px'}}>Input a ticker below to display <br/> data in the box</p> :
           isLoading ?
            <h1>Loading</h1> : hasError ?
               <p>error occurred</p> :

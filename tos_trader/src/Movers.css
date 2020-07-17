@@ -1,0 +1,10 @@
+.movers_container {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.symbols {
+  float: left;
+  width: 100%;
+}
